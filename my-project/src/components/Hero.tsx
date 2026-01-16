@@ -73,7 +73,7 @@ export default function Hero() {
               className="w-full sm:w-auto px-6 sm:px-8 py-3 text-base sm:text-lg bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105 flex items-center justify-center"
               asChild
             >
-              <a href="/files/NoahHamid.pdf" download>
+              <a href="/files/cv.pdf" download="Noah_Hamid_CV.pdf">
                 <Download className="w-4 h-4 mr-2" />
                 Download CV
               </a>

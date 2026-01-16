@@ -26,13 +26,13 @@ export default function Projects() {
     },
     {
       id: 2,
-      title: "Online Coding School",
+      title: "Business Website",
       description:
-        "Built an interactive platform that teaches students programming fundamentals through hands-on lessons and projects, focusing on clear, accessible learning.",
-      image: "/images/code-masters.png",
-      technologies: ["Next.js", "React", "TypeScript"],
-      liveUrl: "https://coding-school-phi.vercel.app/",
-      githubUrl: "https://github.com/noahhamid/coding-school",
+        "Developed an interactive platform for a petroleum enterprise to streamline asset monitoring and data visualization, providing stakeholders with real-time insights into production metrics and operational performance.",
+      image: "/images/jr.png",
+      technologies: ["Next.js", "TypeScript"],
+      liveUrl: "https://jr-petroleum.com/",
+      githubUrl: "https://github.com/noahhamid/JR-petroleum",
       featured: true,
     },
     {
@@ -41,20 +41,20 @@ export default function Projects() {
       description:
         "Created a professional website for an auction company to showcase their services and participation in auctions, helping them improve their online presence and client engagement.",
       image: "/images/mine-ray.png",
-      technologies: ["React", "JavaScript", "CSS3", "Weather API"],
+      technologies: ["React", "Typescript", "Tailwind css"],
       liveUrl: "https://mine-raiy-trading-c329.vercel.app/",
       githubUrl: "https://github.com/noahhamid/Mine_Raiy_Trading",
       featured: false,
     },
     {
       id: 4,
-      title: "Tesla Clone – UI/UX Focused Demo",
+      title: "Dee Coffee",
       description:
-        "Built a fully responsive and interactive Tesla website clone using React and Tailwind CSS, showcasing skills in modern front-end development and design replication.",
-      image: "/images/tesla.png",
-      technologies: ["React", "JavaScript", "Tailwind CSS", "CoinGecko API"],
-      liveUrl: "https://tesla-clix.vercel.app/",
-      githubUrl: "https://github.com/noahhamid/Tesla-clone",
+        "Developed a premium e-commerce experience for a specialty coffee roastery, featuring an intuitive bean subscription service and an interactive brewing guide designed to bring world-class flavors to home baristas.",
+      image: "/images/dee.png",
+      technologies: ["React", "Typescript", "Tailwind CSS"],
+      liveUrl: "https://dee-coffee.com/",
+      githubUrl: "https://github.com/noahhamid/Dee-coffee",
       featured: false,
     },
   ];
@@ -67,7 +67,7 @@ export default function Projects() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold font-poppins mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Featured Projects
+            Latest Works
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full mb-6"></div>
           <p className="text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
